@@ -306,7 +306,10 @@ section {
     max-width: 590px;
     height: auto;
 }
-
+.about-content{
+    margin-left: 10%;
+    size: 50%;
+}
 .about-content span {
     font: .8rem;
     font-weight: 200;
@@ -333,39 +336,6 @@ section {
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
-}
-
-.info-about1,
-.info-about2,
-.info-about3 {
-    background: var(--bg-color);
-    font-size: .5rem;
-    position: absolute;
-    padding: 10px;
-    height: 95px;
-    width: 95px;
-    border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
-    display: block;
-    box-shadow: var(--neon-box-shadow);
-    border: 1px solid var(--hover-color);
-    outline: 2px solid var(--bg-color);
-    z-index: 100;
-    animation: morph 6s linear infinite;
-}
-
-.info-about1 {
-    left: 100%;
-    top: 1%;
-}
-
-.info-about2 {
-    left: 120%;
-    top: 1%;
-}
-
-.info-about3 {
-    left: 140%;
-    top: 1%;
 }
 
 .image-about span {
